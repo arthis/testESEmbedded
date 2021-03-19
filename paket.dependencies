@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+framework: netcoreapp3.1
+
+nuget FSharp.Core
+nuget Fable.Mocha
+nuget Expecto
+nuget EventStore.Client.Embedded ~> 20.6.0
+nuget EventStore.Plugins ~> 20.6.1
